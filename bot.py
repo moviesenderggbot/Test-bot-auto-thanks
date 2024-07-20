@@ -19,9 +19,7 @@ app = Client(
 # Define a handler for photo and video messages
 @app.on_message(filters.photo | filters.video)
 def thanks(client, message):
-    message.reply_text("Thanks for posting , send more sex videos or hot  photo 😘
-
-Any way if you want to fuck me just write yes !!")
+    message.reply_text("Thanks for posting , send more sex videos or hot  photo . Any way if you want to fuck me just write yes !!")
 
 # Run the bot
 app.run()
